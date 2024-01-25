@@ -320,7 +320,8 @@
     }
 
     .logo a {
-      font-size: 1.2em;
+      font-size: 2.3em;
+      margin: 20px 0px 30px 0px;
     }
 
     header .header-container {
@@ -328,6 +329,7 @@
     }
 
     .menu {
+      margin-top: 43px;
       display: block;
       position: absolute;
       top: 60px;
@@ -353,7 +355,7 @@
     }
 
     .menu ul li a {
-      font-size: 20px;
+      font-size: 1.7em;
       padding: 10px 0;
     }
 
@@ -461,20 +463,20 @@
       margin-top: 20%;
     }
     .text h2 {
-      font-size: 3.5em;
+      font-size: 4.3em;
     }
 
     .text h3 {
-      font-size: 2.5em;
+      font-size: 3.1em;
     }
 
     .text p {
-      font-size: 1.5em;
+      font-size: 2em;
     }
 
     .text a {
       padding: 6px 16px;
-      font-size: 1.3em;
+      font-size: 1.8em;
     }
   }
 
@@ -607,8 +609,12 @@
 
   @media only screen and (max-width: 987px) {
 
+    .main-content-container h1 {
+      font-size: 3.3em;
+    }
+
     .main-content-container p {
-      font-size: 12px;
+      font-size: 1.7em;
     }
 
     .card-container {
@@ -637,12 +643,12 @@
     }
 
     .card-content h3 {
-      font-size: 24px;
+      font-size: 2.4em;
     }
 
     .card-content p {
       text-align: center;
-      font-size: 14px;
+      font-size: 1.6em;
     }
   }
 
@@ -1200,16 +1206,16 @@
     }
 
     .footer-container h3 {
-      font-size: 1.3em;
+      font-size: 1.8em;
     }
 
     .footer-container p {
-      font-size: 1em;
+      font-size: 1.3em;
       margin-left: 5%;
     }
 
     .footer-nav ul li a {
-      font-size: 1.2em;
+      font-size: 1.8em;
     }
 
     .social-icons a {
@@ -1219,13 +1225,21 @@
     }
   
     .social-icons i {
-      font-size: 1.5em;
+      font-size: 2.3em;
       color: var(--text-columbia-blue);
     }
 
     .social-icons i:hover {
       color: var(--text-shadow-blue);
       transition: 0.5s;
+    }
+
+    .footer-bottom p {
+      font-size: 1.4em;
+    }
+
+    .footer-bottom a {
+      font-size: 1.2em;
     }
     
   }
