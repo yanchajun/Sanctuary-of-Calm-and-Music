@@ -658,8 +658,7 @@
   */
 
   .header-scroll {
-    content: "";
-    height: 2px;  
+    height: 3px;  
     box-shadow: inset 0px 10px 0px var(--border-prussian-blue);
     opacity: 0.5;
     margin: 50px 100px 0px 100px;
